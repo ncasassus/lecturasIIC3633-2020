@@ -1,0 +1,10 @@
+# Crítica: Item-Based Collaborative Filtering Recommendation Algorithms
+En este paper se analizan distintos tipos de *item-based recommendation* para luego evaluarlos experimentalmente y comparar los resultados con un knn, que corresponde a un algoritmo de *user-based recommendation*.
+
+Me gusta mucho que comenzaran con una explicación de los algoritmos básicos de *user-based recommendation* y sus diferencias con *item-based*. Para alguien que está entrando en el mundo de los Sistemas Recomendadores, como yo, es muy útil para aprender sobre los distintos tipos de recomendación que existen y luego entender ver la importancia de los *item-based* que intentan demostrar en el paper.
+
+Luego pasando a la parte del documento donde se detallan los *Item-based collaborative filtering algorithm* siento que hay un problema de nombramiento ya que computan la similaridad de dos *items* en base a su *rating*, cuando películas muy distintas pueden tener un rating parecido dejando la impresión de que son similares. Me gustaría en un futuro ver que la "similaridad" tome en cuenta más cosas que solo el rating.
+
+Otro problema con el que me topé es que cuando explican la regresión en el punto **3.2 Prediction Computation** (en la parte del texto) dan a entender que el *rating* de la película que que queremos predecir depende del *rating* de las otras películas más similares. En cambio, en la ecuación, la incognita "y" (que generalmente es la variable dependiente) están los *ratings* de las películas similares y la incognita "x" esta el *rating* a predecir.
+
+Personalmente, de forma general me gustó mucho el paper. Sentí que aprendí mucho sobre los distintos tipos de recomendación, sobre sus partes, sobre cómo se pueden clásificar y cómo predicen. El orden me ayudó mucho a entender todo de forma más clara y me ayudó a quedarme con los resultados: con *item-based* apesar de no dar recomendaciones significativamente de mejor calidad que los *user-based*, si dan un resultado mucho mejor en cuanto a la *performance*.
