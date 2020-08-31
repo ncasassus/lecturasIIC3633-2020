@@ -17,4 +17,6 @@ Me gustó mucho, que a diferencia de las lecturas de las otras semanas, usaron m
 
 Como la mayoría de las lecturas que hemos leído, me gusta mucho el orden en el que se explica el paper. Se ve todo ordenado y ayuda a entender de mejor forma lo que quieren comunicar. Los gráficos también estaban muy buenos, muy completos y explicativos.
 
+![Imagenes/lectura3-1.png](Imagenes/lectura3-1.png)
+
 Para ir cerrando, me gustó mucho este paper. Fue conciso y explicativo. Además considero que su contenido es muy importante y supongo que fue un gran aporte a la investigación de los Sistemas Recomendadores ya que critíca una de las bases del área y no asume que las cosas que se estaban haciendo son necesariamente correctas. Creo que este paper cambió por completo la forma en el que se alguien puede diferenciar entre un buen algoritmo de uno no tan bueno.
